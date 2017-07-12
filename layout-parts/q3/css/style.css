@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+table {
+    margin: 0 auto;
+}
+
+td {
+    border: solid #dedede 1px;
+    
+}
+
+th {
+    font-size: 18px;
+    border: solid #dedede 1px;
+    line-height: 22px;
+    background-color: #2244aa;
+    color: white;
+    padding: 10px;
+   
+}
+
+tfoot {
+    border-top:
+        dashed #000 2px;
+    
+}
+
+
+
 /* 回答はここに書いてね */

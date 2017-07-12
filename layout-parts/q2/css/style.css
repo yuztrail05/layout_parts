@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+section {
+    width: 940px;
+    background-color: #eff3f4;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.marginone {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.marginsec {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: right;
+}
 /* 回答はここに書いてね */
