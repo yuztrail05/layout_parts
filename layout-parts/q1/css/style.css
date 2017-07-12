@@ -1,29 +1,39 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-#Contents {
+.contents {
     width: 900px;
-    height: 500px;
     background-color: #eff3f4;
     margin: 0 auto;
+    padding: 20px;
+}
+
+.contents > li {
+    float:left;
+    width: 270px;
+    padding: 20px;
+    background-color: #3274ae;
+    box-sizing: border-box;
+    margin-left: 20px;
 
 }
-p {
+
+.contents > li:first-child {
+        margin: 0px;
+}
+
+
+.contents__txt {
     font-size: 16px;
-    width: 170px;
     padding: 20px;
     background-color: #eaf4ff;
     border: 10px solid #022336;
-    box-shadow : 0 0 0 20px #3274ae;
-
 }
 
-#first {float:left;
-        margin: 40px;}
-#second {float:left;
-        margin: 20px;
-        margin-top: 40px;}
-#third {float:left;
-        margin: 40px;}
-
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 /* 回答はここに書いてね */
