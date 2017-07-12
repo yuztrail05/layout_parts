@@ -19,62 +19,62 @@
     text-align: center;
 }
 
-#one{
+.one{
     z-index: 1;
     background-color: #FFEFD3;
     top: 40px;
     left: 200px;
 }
 
-#two {
+.two {
     z-index: 2;
     background-color: #7084DE;
     top: 120px;
     right: 120px;
 }
 
-#three {
+.three {
     z-index: 3;
     background-color: #D0ECEA;
     top: 200px;
     right: 40px;
 }
 
-#four {
+.four {
     z-index: 4;
     background-color: #8B7A5E;
     top: 280px;
     right: 120px;
 }
 
-#five {
+.five {
     z-index: 5;
     background-color: #9FD6D2;
     top: 360px;
     left: 200px;
 }
 
-#six {
+.six {
     z-index: 6;
     background-color: #FFFEE4;
     top: 280px;
     left: 120px;
 }
-#seven {
+.seven {
     z-index: 7;
     background-color: #DEAE70;
     top: 200px;
     left: 40px;
 }
 
-#eight {
+.eight {
     z-index: 8;
     background-color: #DE70CF;
     top: 120px;
     left: 120px;
 }
 
-#nine {
+.nine {
     z-index: 10;
     position: fixed;
     background-color: #2B69A3;
@@ -82,7 +82,7 @@
     left: 10px;
 }
 
-.boxa#eight:after {
+.boxa.eight:after {
     position: absolute;
     top: 0;
     right: 0;
