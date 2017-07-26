@@ -1,62 +1,58 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-div {
-  font-size: 16px;
-  line-height: 50px;
+.box__02 {
+    padding: 20px;
+    background-color: #ECF1F2;
 }
 
-.banana {
-  display: inline-block;
-  box-sizing: border-box;
-  background-color: #FFF;
-  margin-top: -20px;
-  margin-right: -20px;
-}
-.code00 {
-  text-align: center;
-  border: solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 100%;
+.mini__box {
+    margin: 0 -10px;
+    font-size: 0;
 }
 
-.code06 {
-  text-align: center;
-  border:solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 50%;
-  float: left;
-  }
+.mini__box:not(:first-child) {
+   margin-top: 20px;
+}
 
-.code04 {
-  text-align: center;
-  border:solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 33.333333%;
+.point {
+    height: 50px;
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
 
-  }
 
-.code03 {
-  text-align: center;
-  border:solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 25%;
-  
-  }
+.sub {
+    display: inline-block;
+    padding: 0 10px;
+    box-sizing: border-box;  
+}
 
-.code24 {
-  text-align: center;
-  border:solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 20%;
+.size__12 {
+   width: 100%; 
+}
 
-  }
+.size__6 { 
+  width: 50%; 
+}
 
-  .code02 {
-  text-align: center;
-  border:solid 20px #ecf1f2;
-  background-color: #fff;
-  width: 16.666666666%;
-  
-  }
+.size__4 {
+   width: 33.33%; 
+}
+
+.size__3 {
+   width: 25%; 
+}
+
+.size__24 { 
+  width: 20%; 
+}
+
+.size__2 {
+   width: 16.66%; 
+}
+
+
 /* 回答はここに書いてね */

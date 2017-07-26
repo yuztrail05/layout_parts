@@ -6,11 +6,13 @@
 }
 .title--sub {
      text-align: center;
+     margin-bottom: 0px;
 }
 
-.title--sub mt10 {
-     text-align: center;
+.tt {
+    margin-top: 45px ;
 }
+
 
 .common-a {
     font-size: 16px;
@@ -170,5 +172,19 @@
     margin: 5px;
 }
 
+.center__a {
+    margin: 0 auto;
+    width: 361.61px;
+}
+
+.center__b {
+    margin: 0 auto;
+    width: 452px;
+}
+
+.center__c {
+    margin: 0 auto;
+    width: 543.4px;
+}
 
 /* 回答はここに書いてね */
