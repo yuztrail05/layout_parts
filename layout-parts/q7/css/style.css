@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7 {
+.main {
     font-size: 0;
     text-align: center;
 }
-.q7__box {
+.main__box {
     display: inline-block;
     margin: 10px;
     font-size: 16px;
     vertical-align: middle;
 }
-.q7__init {
+.main__sub {
     padding: 0;
     background: none;
     border: none;
@@ -22,28 +22,28 @@
     -moz-appearance: none;
     appearance: none;
 }
-.q7__txt {
+.main__text {
     padding: 5px;
     border: 1px solid #00BCD4;
     border-radius: 5px;
 }
-.q7__txt::-webkit-input-placeholder { color: #00BCD4; }
-.q7__txt:focus { box-shadow: 0 0 7px #00BCD4; }
-.q7__textarea {
+.main__text::-webkit-input-placeholder { color: #00BCD4; }
+.main__text:focus { box-shadow: 0 0 7px #00BCD4; }
+.main__textarea {
     height: 40px;
     padding: 5px;
     border: 1px solid #00BCD4;
     border-radius: 5px;
     resize: none;
 }
-.q7__radio { cursor: pointer; }
-.q7__radio__btn { display: none; }
-.q7__radio__txt {
+.main__radio { cursor: pointer; }
+.main__radio__botton { display: none; }
+.main__radio__text {
     position: relative;
     display: inline-block;
     padding: 3px 3px 3px 20px;
 }
-.q7__radio__txt:before {
+.main__radio__text:before {
     position: absolute;
     top: 50%;
     left: 0;
@@ -55,7 +55,7 @@
     border-radius: 50%;
     content: '';
 }
-.q7__radio__btn:checked + .q7__radio__txt:after {
+.main__radio__botton:checked + .main__radio__text:after {
     position: absolute;
     top: 50%;
     left: 4px;
@@ -66,14 +66,14 @@
     border-radius: 50%;
     content: '';
 }
-.q7__check { cursor: pointer; }
-.q7__check__btn { display: none; }
-.q7__check__txt {
+.main__check { cursor: pointer; }
+.main__check__botton { display: none; }
+.main__check__text {
     position: relative;
     display: inline-block;
     padding: 3px 3px 3px 22px;
 }
-.q7__check__txt:before {
+.main__check__text:before {
     position: absolute;
     content: '';
     top: 50%;
@@ -84,7 +84,7 @@
     background-color: #fff;
     border: 1px solid #ccc;
 }
-.q7__check__btn:checked + .q7__check__txt:after {
+.main__checkbox__botton:checked + .main__checkbox__text:after {
     position: absolute;
     content: '';
     top: 5px;
@@ -96,11 +96,11 @@
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-.q7__select {
+.main__select {
     position: relative;
     background-color: #FFF;
 }
-.q7__select:before {
+.main__select:before {
     position: absolute;
     top: 7px;
     right: 9px;
@@ -112,21 +112,21 @@
     transform: rotate(-45deg);
     content: "";
 }
-.q7__select__item {
+.main__select__sub {
     position: relative;
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 5px 30px 5px 5px;
     font-size: 14px;
 }
-.q7__btn {
+.botton__botton {
     padding: 5px 10px;
     border: 1px solid #00BCD4;
     border-radius: 5px;
     color: #00BCD4;
     cursor: pointer;
 }
-.q7__btn:active {
+.main__botton:active {
     background-color: #00BCD4;
     color: #FFF;
 }

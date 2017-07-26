@@ -1,43 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-
 .text {
-    background-color: #e6f2ff;
-    padding: 10px;
+    padding: 10px 0 10px;
     width: 90px;
-    border-top: solid 10px #fff;
-    border-bottom: solid 10px #fff;
-    border-left: solid 90px #fff;
-    border-right: solid 90px #fff;
+    background-color: #e6f2ff;
     text-align: center;
-    box-shadow : 0 0 0 20px #ecf1f2;
-    float: left;
-   
-    
+    margin: 10px 50px 10px;
 }
 
+.frame__01 {
+    padding: 20px;
+    background-color: gray;
+}
 .texta {
-    background-color: #e6f2ff;
-    padding: 10px;
-    width: 90px;
-    border-top: solid 10px #fff;
-    border-bottom: solid 10px #fff;
-    border-left: solid 90px #fff;
-    border-right: solid 90px #fff;
-    text-align: center;
-    box-shadow : 0 0 0 20px #ecf1f2;
-    float: left;
-   
-}
-
-.q5__vertical__table__txt {
-    padding: 10px;
-    background-color: #fff;
-}
-
-
-
+     
 /* 回答はここに書いてね */
 
