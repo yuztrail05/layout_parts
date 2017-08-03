@@ -1,19 +1,113 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text {
-    padding: 10px 0;
-    width: 90px;
-    background-color: #e6f2ff;
+.q5__horizontal_mb20 {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-size: 0;
     text-align: center;
-    margin: 10px 50px;
+    background-color: #ECF1F2;
+}
+.q5__horizontal__box {
+    display: inline-block;
+    width: 300px;
+    margin: 0 10px;
+    padding: 10px 0;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+.q5__horizontal__box__text {
+    width: 90px;
+    margin: 0 10px;
+    padding: 10px 0;
+    background-color: #E6F2FF;
+    text-align: center;
+    margin: 0 auto;
+}
+.textalign__main { text-align: center; }
+.contents__textalign__inner { display: inline-block; }
+.contents__margin { margin: 0 auto; }
+.contents__vertical__table {
+    display: table;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+.contents__vertical__table__inner {
+    display: table-cell;
+    background-color: #ECF1F2;
+    text-align: center;
+    vertical-align: middle;
+}
+.contents__vertical__table__txt {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFF;
+}
+.contents__vertical__flex {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #ECF1F2;
+    align-items: center;
+    justify-content: center;
+}
+.contents__vertical__flex__txt {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFF;
+}
+.contents__position {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-size: 0;
+    background-color: #ECF1F2;
+}
+.contents__position__box {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    background-color: #FFF;
+    font-size: 16px;
+    vertical-align: top;
+}
+.contents__position__box__inner { background-color: #E6F2FF; }
+.contents__position__box__inner.is-stable {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 110px;
+    height: 30px;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+}
+.contents__position__box__inner.is-flexible {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
-.frame__01 {
-    padding: 20px;
-    background-color: gray;
+.contents__vertical__table {
+    margin-bottom: 20px;
 }
-.texta {
-     
+
+.contents__vertical__flex {
+    margin-bottom: 20px;
+}
+
+
 /* 回答はここに書いてね */
 
