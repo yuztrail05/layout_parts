@@ -3,30 +3,40 @@
 /* 回答はここに書いてね */
 
 table {
-    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+thead tr td {
+    background-color: #2244aa;
+    color: #fff;
 }
 
 td {
-    border: solid #dedede 1px;
-    
+    font-size: 16px;
+    padding: 10px;
+    line-height: 22px;
+    border: 1px solid #dedede;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf1f2;
 }
 
 th {
-    font-size: 18px;
-    border: solid #dedede 1px;
-    line-height: 22px;
     background-color: #2244aa;
-    color: white;
-    padding: 10px;
-   
+    border: 1px solid #dedede;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px 0;
 }
 
-tfoot {
-    border-top:
-        dashed #000 2px;
-    
+tbody tr:last-child {
+    border-bottom: 2px dashed #000;
 }
-
-
-
 /* 回答はここに書いてね */

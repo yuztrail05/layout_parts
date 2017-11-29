@@ -1,36 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents {
+ul {
     width: 900px;
     background-color: #eff3f4;
     margin: 0 auto;
     padding: 20px;
 }
 
-.contents > li {
-    float:left;
+li {
+    float: left;
     width: 270px;
     padding: 20px;
     background-color: #3274ae;
     box-sizing: border-box;
     margin-left: 20px;
-
 }
 
-.contents > li:first-child {
-        margin: 0px;
+li:first-child {
+    margin: 0px;
 }
 
-
-.contents__txt {
+li p {
     font-size: 16px;
     padding: 20px;
     background-color: #eaf4ff;
     border: 10px solid #022336;
 }
 
-.clearfix::before,
 .clearfix::after {
     content: "";
     display: block;

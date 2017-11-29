@@ -1,25 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-p {
-    padding: 0 20px 0;
-}
-
 .main {
-    width: 940px;
+    width: 900px;
     background-color: #eff3f4;
-    margin: 0 auto;
-    padding: 20px 0 20px;
+    padding: 20px;
     font-size: 18px;
     line-height: 22px;
-}
-.marginone {
-    padding: 0 20px 10px;
-    float: left;
+    word-break: break-all;
+    margin: 0 auto;
 }
 
-.marginsec {
-    padding: 0 20px 10px;
+.main__top img {
+    float: left;
+    padding: 0 20px 10px 0;
+}
+
+.main__bottom img {
     float: right;
+    padding: 0 0 10px 20px;
 }
 /* 回答はここに書いてね */
