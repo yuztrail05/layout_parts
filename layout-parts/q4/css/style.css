@@ -9,7 +9,7 @@
     background-color: #ECF1F2;
 }
 
-.boxa {
+.main__box {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -82,7 +82,7 @@
     left: 10px;
 }
 
-.boxa.eight:after {
+.main__box.eight:after {
     position: absolute;
     top: 0;
     right: 0;
