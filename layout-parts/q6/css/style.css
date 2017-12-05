@@ -1,190 +1,63 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6{
-    text-align: center;
-}
 .title--sub {
-     text-align: center;
-     margin-bottom: 0px;
+    margin-top: 10px;
 }
 
-.tt {
-    margin-top: 45px ;
-}
-
-
-.common-a {
-    font-size: 16px;
-    background-color: #00bcd4;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    float: left;
-    margin: 5px;
-}
-.error-a {
-    font-size: 16px;
-    background-color: #ff4081;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    float: left;
-    margin: 5px;
-}
-.disabled-a {
-    font-size: 16px;
-    background-color: #e5e5e5;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    float: left;
-    margin: 5px;
-}
-.shadow-a {
-    font-size: 16px;
-    background-color: white;
-    color: #222;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    box-shadow: 0 1px 6px rgba(0,0,0,.12),
-                0 1px 4px rgba(0,0,0,.12);
-    float: left;
-    margin: 5px;
-}
-
-
-.common-b {
-    font-size: 20px;
-    background-color: #00bcd4;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    float: left;
-    margin: 5px;
-}
-.error-b {
-    font-size: 20px;
-    background-color: #ff4081;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    float: left;
-    margin: 5px;
-}
-.disabled-b {
-    font-size: 20px;
-    background-color: #e5e5e5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    float: left;
-    margin: 5px;
-}
-.shadow-b {
-    font-size: 20px;
-    background-color: white;
-    color: #222;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    box-shadow: 0 1px 6px rgba(0,0,0,.12),
-                0 1px 4px rgba(0,0,0,.12);
-    float: left;
-    margin: 5px;
-}
-
-.common-c {
-    font-size: 24px;
-    background-color: #00bcd4;
-    color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 7px;
-    float: left;
-    margin: 5px;
-}
-
-.error-c {
-    font-size: 24px;
-    background-color: #ff4081;
-    color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 7px;
-    float: left;
-    margin: 5px;
-}
-
-.disabled-c {
-    font-size: 24px;
-    background-color: #e5e5e5;
-    color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 7px;
-    float: left;
-    margin: 5px;
-}
-
-.shadow-c {
-    font-size: 24px;
-    background-color: white;
-    color: #222;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 7px;
-    box-shadow: 0 1px 6px rgba(0,0,0,.12),
-                0 1px 4px rgba(0,0,0,.12);
-    float: left;
-    margin: 5px;
-}
-
-.center__a {
+.center__a, .center__b, .center__c {
     margin: 0 auto;
-    width: 361.61px;
 }
 
-.center__b {
-    margin: 0 auto;
-    width: 452px;
+.center__a div {
+    display: inline-block;
+    padding: 0 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 3px; 
+    line-height: 26px;
 }
 
-.center__c {
-    margin: 0 auto;
-    width: 543.4px;
+.center__b div {
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 5px; 
+    line-height: 32px;
 }
+
+.center__c div {
+    display: inline-block;
+    padding: 0 25px;
+    margin-left: 10px;
+    font-size: 24px;
+    border-radius: 7px; 
+    line-height: 38px;
+}
+
+.common-a, .common-b, .common-c {
+    background-color: #00bcd4;
+    color: #fff;
+
+}
+
+.error-a, .error-b, .error-c {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.disabled-a, .disabled-b, .disabled-c {
+    background-color: #e5e5e5;
+    color: #fff;
+}
+
+.shadow-a, .shadow-b, .shadow-c {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12),
+    0 1px 4px rgba(0, 0, 0, .12);
+    color: #000;
+}
+
+
 
 /* 回答はここに書いてね */

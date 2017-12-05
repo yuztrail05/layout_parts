@@ -37,59 +37,55 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-    <main>
-     <form class="form">
-            <div class="title">
-                <p class="title__text">Form Exercise</p>
+        <form class="form">
+            <div class="form__title">
+                <h2>Form Exercise</h2>
             </div>
-
-            <div class="clearfix">
-                <div class="main">
-                    <ul class="main__part">
-                        <li class="clearfix">
-                            <p class="main__part__title">name <span class="span">*</span></p>
-                            <div class="main__part__point">
-                                <input class="input input--init" type="text" name="q10_1" required>
-                            </div>
+            <div class="form__input clearfix">
+                <div class="form__input__left">
+                    <ul>
+                        <li>
+                            <label>
+                                <span class="sub__font">name<span> *</span></span>
+                                <input class="sub__form form__input__left__child" type="text" required>
+                            </label>
                         </li>
-                        <li class="clearfix">
-                            <p class="main__part__title">Sex</p>
-                            <div class="main__part__point">
-                                <label class="radio__box">
-                                    <input class="radio__botton" type="radio" name="q10_2" value="male">
-                                    <span class="radio__text">male</span>
+                        <li class="form__input__left__radio">
+                            <span class="sub__font">Sex</span>
+                            <div class="sub__form">
+                                <label>
+                                    <input type="radio" name="radio">
+                                    <span class="form__input__left__radio__text">male</span> 
                                 </label>
-                                <label class="radio__box">
-                                    <input class="radio__botton" type="radio" name="q10_2" value="female">
-                                    <span class="radio__text">female</span>
+                                <label>
+                                    <input type="radio" name="radio">
+                                    <span class="form__input__left__radio__text">female</span>
                                 </label>
                             </div>
                         </li>
-                        <li class="clearfix">
-                            <p class="main__part__title">Email <span class="span">*</span></p>
-                            <div class="main__part__point">
-                                <input class="input input--init" type="text" placeholder="ex) hoge@gmail.com" name="q10_3" required>
-                            </div>
+                        <li>
+                            <label>
+                                <span class="sub__font">Email<span> *</span></span>
+                                <input class="sub__form form__input__left__child" type="email" placeholder="ex) hoge@gmail.com" required>
+                            </label>
                         </li>
-                        <li class="clearfix">
-                            <p class="main__part__title">Telephone</p>
-                            <div class="main__part__point">
-                                <input class="input input--init" type="text" name="q10_4" placeholder="ex) 08012345678">
-                            </div>
+                        <li>
+                            <label>
+                                <span class="sub__font">Telephone</span>
+                                <input class="sub__form form__input__left__child" type="tel" placeholder="ex) 08012345678">
+                            </label>
+                        </li>
+                        <li>
+                            <input class="submit" type="submit" value="submit">
                         </li>
                     </ul>
-
-                    <div class="q10__main__bottom">
-                        <input class="main__bottom__botton input--init" type="submit" value="submit">
-                    </div>
                 </div>
-
-                <div class="message">
-                    <textarea class="message__text input--init" name="q10_5" placeholder="Please fill in the message..."></textarea>
+                <div class="form__input__right">
+                    <textarea placeholder="Please fill in the message..."></textarea>
                 </div>
             </div>
+
         </form>
-    </main>
     </div>
 </div>
 

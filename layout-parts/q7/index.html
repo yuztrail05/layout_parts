@@ -48,38 +48,36 @@
         ・:after
         -->
         <!-- 回答はここに書いてね -->
-        <div class="main">
-            <div class="main__box"><input class="main__text main__sub" type="text" placeholder='input="text"'></div>
-            <div class="main__box"><textarea class="main__textarea main__sub" type="text" placeholder="textarea(サイズ固定)"></textarea></div>
-            <div class="main__box">
-              <label class="main__radio">
-                <input class="main__radio__botton" type="radio" name="main">
-                <span class="main__radio__text">radio1</span>
-              </label>
-              <label class="main__radio">
-                <input class="main__radio__botton" type="radio" name="main">
-                <span class="main__radio__text">radio2</span>
-              </label>
-            </div>
-            <div class="main__box">
-              <label class="main__checkbox">
-                <input class="main__checkbox__botton" type="checkbox">
-                <span class="main__checkbox__text">checkbox</span>
-              </label>
-            </div>
-            <div class="main__box">
-              <div class="main__select">
-                <select class="main__select__sub main__sub">
-                  <option>select1</option>
-                  <option>select2</option>
-                  <option>select3</option>
-                </select>
-              </div>
-            </div>
-            <div class="main__box">
-              <button class="main__botton main__sub">button</button>
-            </div>
-        </div>
+        <form class="main">
+            <ul>
+                <li><input class="main__text" type="text" placeholder="input=&quot;text&quot;"></li>
+                <li><textarea class="main__textarea" placeholder="textarea(サイズ固定)"></textarea></li>
+                <li>
+                    <label class="main__radio">
+                        <input class="main__radio__button" type="radio" name="radio">
+                        <span class="main__radio__text">radio1</span>
+                    </label>
+                    <label class="main__radio">
+                        <input class="main__radio__button" type="radio" name="radio">
+                        <span class="main__radio__text">radio2</span>
+                    </label>
+                </li>
+                <li>
+                    <label class="main__check">
+                        <input class="main__check__button" type="checkbox">
+                        <span class="main__check__text">checkbox</span>
+                    </label>
+                </li>
+                <li class="main__select">
+                    <select class="main__select__sub">
+                        <option>select1</option>
+                        <option>select2</option>
+                        <option>select3</option>
+                    </select>
+                </li>
+                <li><button class="main__button">button</li>
+            </ul>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

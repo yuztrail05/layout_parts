@@ -2,57 +2,49 @@
 
 /* 回答はここに書いてね */
 .box__02 {
-    padding: 20px;
-    background-color: #ECF1F2;
-}
-
-.mini__box {
-    margin: 0 -10px;
-    font-size: 0;
-}
-
-.mini__box:not(:first-child) {
-   margin-top: 20px;
+    background-color: #ecf1f2;
+    padding: 10px;
+    width: 100%;
 }
 
 .point {
-    height: 50px;
-    background-color: #FFF;
     font-size: 16px;
     line-height: 50px;
+    background-color: #fff;
     text-align: center;
 }
 
-
 .sub {
     display: inline-block;
-    padding: 0 10px;
-    box-sizing: border-box;  
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mini__box {
+    font-size: 0;
 }
 
 .size__12 {
-   width: 100%; 
+    width: 100%;
 }
 
-.size__6 { 
-  width: 50%; 
+.size__6 {
+    width: 50%;
 }
 
 .size__4 {
-   width: 33.33%; 
+    width: 33.33%;
 }
 
 .size__3 {
-   width: 25%; 
+    width: 25%;
 }
 
-.size__24 { 
-  width: 20%; 
+.size__24 {
+    width: 20%;
 }
 
 .size__2 {
-   width: 16.66%; 
+    width: 16.66%;
 }
-
-
 /* 回答はここに書いてね */

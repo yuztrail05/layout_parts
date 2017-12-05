@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text {
+.contents {
     padding: 20px;
     width: 500px;
     margin: 0 auto;
@@ -10,22 +10,22 @@
     position: relative;
 }
 
-.maintext {
-     font-size: 16px;
+.contents__text {
+    font-size: 16px;
     line-height: 16px;
 }
 
-.text:after, .text:before {
+.contents:after, .contents:before {
    position: absolute;
    border: 20px solid transparent;
-   content: '';
+   content: "";
 }
-.text:after {
+.contents:after {
     bottom: -38px;
     left: 30px;
     border-top-color: #fff;
 }
-.text:before {
+.contents:before {
     bottom: -45px;
     left: 30px;
     border-top-color: #222;
