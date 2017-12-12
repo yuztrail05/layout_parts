@@ -5,7 +5,7 @@
     padding: 20px;
     width: 500px;
     margin: 0 auto;
-    border: 5px solid #000;
+    border: 5px solid #222;
     border-radius: 30px;
     position: relative;
 }
@@ -18,7 +18,7 @@
 .contents:before {
     content: "";
     border: 20px solid transparent;
-    border-top: 20px solid #000;
+    border-top: 20px solid #222;
     position: absolute;
     left: 30px;
     bottom: -45px;
