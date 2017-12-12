@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-ul {
+.contents {
     width: 900px;
     background-color: #eff3f4;
     margin: 0 auto;
     padding: 20px;
 }
 
-li {
+.contents__child {
     float: left;
     width: 270px;
     padding: 20px;
@@ -17,11 +17,11 @@ li {
     margin-left: 20px;
 }
 
-li:first-child {
+.contents__child:first-child {
     margin: 0px;
 }
 
-li p {
+.contents__child p {
     font-size: 16px;
     padding: 20px;
     background-color: #eaf4ff;

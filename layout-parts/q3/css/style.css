@@ -2,32 +2,32 @@
 
 /* 回答はここに書いてね */
 
-table {
+.contents {
     table-layout: fixed;
     width: 100%;
 }
 
-thead tr td {
+.contents__head .contents__child td {
     background-color: #2244aa;
     color: #fff;
 }
 
-td {
+.contents__child td {
     font-size: 16px;
     padding: 10px;
     line-height: 22px;
     border: 1px solid #dedede;
 }
 
-tr {
+.contents__child {
     text-align: center;
 }
 
-tr:nth-child(even) {
+.contents__child:nth-child(even) {
     background-color: #ecf1f2;
 }
 
-th {
+.contents__child th {
     background-color: #2244aa;
     border: 1px solid #dedede;
     color: #fff;
@@ -36,7 +36,7 @@ th {
     padding: 10px 0;
 }
 
-tbody tr:last-child {
+.contents__body .contents__child:last-child {
     border-bottom: 2px dashed #000;
 }
 /* 回答はここに書いてね */
