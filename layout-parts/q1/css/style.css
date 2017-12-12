@@ -28,7 +28,7 @@ li p {
     border: 10px solid #022336;
 }
 
-.clearfix::after {
+.clearfix:after {
     content: "";
     display: block;
     clear: both;

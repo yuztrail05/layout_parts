@@ -60,13 +60,13 @@
     margin: 0 auto;
     width: 300px;
 }
+
 .contents__vertical__flex__text {
-    padding:10px;
-    background-color: #fff;
-   
+    padding: 10px;
+    background-color: #fff;   
 }
 
-/*position*/
+/*q5-position*/
 .contents__position__box {
     background-color: #fff;
     display: inline-block;
@@ -101,6 +101,5 @@
     transform: translate(-50%, -50%);
     background-color: #E6F2FF;
 }
-
 /* 回答はここに書いてね */
 

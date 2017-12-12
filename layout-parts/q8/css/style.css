@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q8 {
-     width: 100%;
+.main__bar {
+    width: 100%;
     padding: 20px;
     background-color: #ECF1F2;
     margin: 0 auto;
@@ -11,34 +11,34 @@
     box-sizing: border-box;
 }
 
-li {
+.main__bar li {
     padding: 20px 0;
     display: table-cell;
 }
 
-.kotei-a {
+.main__bar__kotei-a {
     width: 100px;
     background-color: #fdc8b8;
 }
 
-.kahen-a {
+.main__bar__kahen-a {
     background-color: #e0abd9; 
 }
 
-.kotei-b {
+.main__bar__kotei-b {
     width: 100px;
     background-color: #b6d8ed;
 }
 
-.kahen-b {
+.main__bar__kahen-b {
     background-color: #e5d32e;
 }
 
-.kahen-c {
+.main__bar__kahen-c {
     background-color: #e4e67c;
 }
 
-.kotei-c {
+.main__bar__kotei-c {
     width: 500px;
     background-color: #8fdcad;
 }

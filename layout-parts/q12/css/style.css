@@ -5,7 +5,7 @@
     padding: 20px;
     width: 500px;
     margin: 0 auto;
-    border: 5px solid #222;
+    border: 5px solid #000;
     border-radius: 30px;
     position: relative;
 }
@@ -15,19 +15,21 @@
     line-height: 16px;
 }
 
-.contents:after, .contents:before {
-   position: absolute;
-   border: 20px solid transparent;
-   content: "";
-}
-.contents:after {
-    bottom: -38px;
-    left: 30px;
-    border-top-color: #fff;
-}
 .contents:before {
-    bottom: -45px;
+    content: "";
+    border: 20px solid transparent;
+    border-top: 20px solid #000;
+    position: absolute;
     left: 30px;
-    border-top-color: #222;
+    bottom: -45px;
+}
+
+.contents:after {
+    content: "";
+    border: 20px solid transparent;
+    border-top: 20px solid #fff;
+    position: absolute;
+    left: 30px;
+    bottom: -38px;
 }
 /* 回答はここに書いてね */

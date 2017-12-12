@@ -12,14 +12,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <h1 class="title">基本レイアウト・パーツ</h1>
 
-<div class="wrapper">
-    <h1 class="title">基本レイアウト・パーツ</h1>
-
-    <div class="box">
-        <h2 class="headline">
-            <p class="headline__txt">Q8. display: table</p>
-        </h2>
+        <div class="box">
+            <h2 class="headline">
+                <p class="headline__txt">Q8. display: table</p>
+            </h2>
         <!--
         Webサイトを作る際、「メインコンテンツはウィンドウの横幅に応じて伸縮するけれどサイドバーは常に固定値」といったようなレイアウトをすることが多々あります。
         そのようなときに、ウィンドウサイズに対して固定のものと可変のものを横に並べるやり方がわからないとレイアウトができません。
@@ -34,19 +33,20 @@
         ・display: table-cell
         -->
         <!-- 回答はここに書いてね -->
-        <ul class="q8">
-            <li class="kotei-a">固定</li>
-            <li class="kahen-a">可変</li>
-            <li class="kotei-b">固定</li>
-        </ul>
-        <ul class="q8">
-            <li class="kahen-b">可変</li>
-            <li class="kahen-c">可変</li>
-            <li class="kotei-c">固定</li>
-        </ul>
+            <div class="main">
+                <ul class="main__bar">
+                    <li class="main__bar__kotei-a">固定</li>
+                    <li class="main__bar__kahen-a">可変</li>
+                    <li class="main__bar__kotei-b">固定</li>
+                </ul>
+                <ul class="main__bar">
+                    <li class="main__bar__kahen-b">可変</li>
+                    <li class="main__bar__kahen-c">可変</li>
+                    <li class="main__bar__kotei-c">固定</li>
+                </ul>
+            </div>
         <!-- 回答はここに書いてね -->
+        </div>
     </div>
-</div>
-
 </body>
 </html>

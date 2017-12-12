@@ -1,50 +1,50 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box__02 {
+.contents {
     background-color: #ecf1f2;
     padding: 10px;
     width: 100%;
 }
 
-.point {
+.contents__box__common__point {
     font-size: 16px;
     line-height: 50px;
     background-color: #fff;
     text-align: center;
 }
 
-.sub {
+.contents__box__common {
     display: inline-block;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.mini__box {
+.contents__box {
     font-size: 0;
 }
 
-.size__12 {
+.contents__box__12 {
     width: 100%;
 }
 
-.size__6 {
+.contents__box__6 {
     width: 50%;
 }
 
-.size__4 {
+.contents__box__4 {
     width: 33.33%;
 }
 
-.size__3 {
+.contents__box__3 {
     width: 25%;
 }
 
-.size__24 {
+.contents__box__24 {
     width: 20%;
 }
 
-.size__2 {
+.contents__box__2 {
     width: 16.66%;
 }
 /* 回答はここに書いてね */

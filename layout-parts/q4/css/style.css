@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.one{
+.one {
     z-index: 1;
     background-color: #FFEFD3;
     top: 40px;
@@ -84,10 +84,9 @@
 
 .main__box.eight:after {
     position: absolute;
-    top: 0;
     right: 0;
     width: 20px;
     height: 20px;
     background-color: #FFEFD3;
     content: "";
-}
+} 

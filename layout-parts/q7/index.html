@@ -12,14 +12,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <h1 class="title">基本レイアウト・パーツ</h1>
 
-<div class="wrapper">
-    <h1 class="title">基本レイアウト・パーツ</h1>
-
-    <div class="box">
-        <h2 class="headline">
-            <p class="headline__txt">Q7. input・select・buttonデザイン</p>
-        </h2>
+        <div class="box">
+            <h2 class="headline">
+                <p class="headline__txt">Q7. input・select・buttonデザイン</p>
+            </h2>
         <!--
         ユーザーからの入力を受け付けるタグにデザインをあてる問題です。
         ここで使われるタグは一般的にはデザインするのが難しいと言われていますが、それをやらないといけない状況は結構多いです。
@@ -48,39 +47,38 @@
         ・:after
         -->
         <!-- 回答はここに書いてね -->
-        <form class="main">
-            <ul>
-                <li><input class="main__text" type="text" placeholder="input=&quot;text&quot;"></li>
-                <li><textarea class="main__textarea" placeholder="textarea(サイズ固定)"></textarea></li>
-                <li>
-                    <label class="main__radio">
-                        <input class="main__radio__button" type="radio" name="radio">
-                        <span class="main__radio__text">radio1</span>
-                    </label>
-                    <label class="main__radio">
-                        <input class="main__radio__button" type="radio" name="radio">
-                        <span class="main__radio__text">radio2</span>
-                    </label>
-                </li>
-                <li>
-                    <label class="main__check">
-                        <input class="main__check__button" type="checkbox">
-                        <span class="main__check__text">checkbox</span>
-                    </label>
-                </li>
-                <li class="main__select">
-                    <select class="main__select__sub">
-                        <option>select1</option>
-                        <option>select2</option>
-                        <option>select3</option>
-                    </select>
-                </li>
-                <li><button class="main__button">button</li>
-            </ul>
-        </form>
+            <form class="main">
+                <ul>
+                    <li><input class="main__text" type="text" placeholder="input=&quot;text&quot;"></li>
+                    <li><textarea class="main__textarea" placeholder="textarea(サイズ固定)"></textarea></li>
+                    <li>
+                        <label class="main__radio">
+                            <input class="main__radio__button" type="radio" name="radio">
+                            <span class="main__radio__text">radio1</span>
+                        </label>
+                        <label class="main__radio">
+                            <input class="main__radio__button" type="radio" name="radio">
+                            <span class="main__radio__text">radio2</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="main__check">
+                            <input class="main__check__button" type="checkbox">
+                            <span class="main__check__text">checkbox</span>
+                        </label>
+                    </li>
+                    <li class="main__select">
+                        <select class="main__select__sub">
+                            <option>select1</option>
+                            <option>select2</option>
+                            <option>select3</option>
+                        </select>
+                    </li>
+                    <li><button class="main__button">button</li>
+                </ul>
+            </form>
         <!-- 回答はここに書いてね -->
+        </div>
     </div>
-</div>
-
 </body>
 </html>

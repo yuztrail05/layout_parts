@@ -12,53 +12,50 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<div class="wrapper">
-    <h1 class="title">基本レイアウト・パーツ</h1>
-
-    <div class="box">
-        <h2 class="headline">
-            <p class="headline__txt">Q5. 中央寄せ</p>
-        </h2>
+    <div class="wrapper">
+        <h1 class="title">基本レイアウト・パーツ</h1>
+        <div class="box">
+            <h2 class="headline">
+                <p class="headline__txt">Q5. 中央寄せ</p>
+            </h2>
         <!--
         左右の中央寄せや、天地(上下)の中央寄せというのはサイトを作っているとよく遭遇するレイアウトです。
         色々なやり方があるのですが、状況に応じて最適なものは違うので適切な配置の仕方ができるようになりましょう。
         この問題ではHTMLはすでに用意しているので、classを自分で付与してスタイルをあててください。
         -->
-        <p class="title--sub">ー Q5-1 左右中央寄せ ー</p>
+            <p class="title--sub">ー Q5-1 左右中央寄せ ー</p>
         <!--
         ブロック要素内のテキスト(or インライン要素)の左右中央寄せに関してはtext-align:centerを設定することで簡単にできます。
         ただ、ブロック要素そのものの左右中央寄せは少し工夫をしないとできません。
         大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。
         中央寄せするブロックの横幅が固定の場合は上の方法が、可変の場合は下の方法が向いています。
         -->
-        <div class="q5__horizontal_mb20">
-            <div class="q5__horizontal__box">
+            <div class="q5__horizontal_mb20">
+                <div class="q5__horizontal__box">
                 <!--
                 ■この問題で使う大事なプロパティ
                 ・display
                 ・text-align
                 -->
                 <!-- Q5-1の回答はここに書いてね -->
-                <div class="q5__horizontal__box__align">
-                    <p class="q5__horizontal__box__text q5__horizontal__box__align__text">text-align</p>
-                </div>
+                    <div class="q5__horizontal__box__align">
+                        <p class="q5__horizontal__box__text q5__horizontal__box__align__text">text-align</p>
+                    </div>
                 <!-- Q5-1の回答はここに書いてね -->
-            </div>
-            <div class="q5__horizontal__box">
+                </div>
+                <div class="q5__horizontal__box">
                 <!--
                 ■この問題で使う大事なプロパティ
                 ・margin
                 -->
                 <!-- Q5-1の回答はここに書いてね -->
-                <div>
-                    <p class="q5__horizontal__box__text q5__horizontal__box__margin">margin</p>
-                </div>
+                    <div>
+                        <p class="q5__horizontal__box__text q5__horizontal__box__margin">margin</p>
+                    </div>
                 <!-- Q5-1の回答はここに書いてね -->
+                </div>
             </div>
-        </div>
-
-        <p class="title--sub">ー Q5-2 天地左右中央寄せ ー</p>
+            <p class="title--sub">ー Q5-2 天地左右中央寄せ ー</p>
         <!--
         ブロック要素の天地中央寄せは左右よりも難易度が高くなります。
         そして天地の中央寄せができる状態だと左右もできる状態に自然になっているため、今回は天地左右の中央寄せになります。
@@ -78,11 +75,11 @@
         ・vertical-align
         -->
         <!-- Q5-2の回答はここに書いてね -->
-        <div class="contents__vertical__table mb20">
-            <div class="contents__vertical__table__inner">
-                <p class="contents__vertical__table__text">table</p>
+            <div class="contents__vertical__table mb20">
+                <div class="contents__vertical__table__inner">
+                    <p class="contents__vertical__table__text">table</p>
+                </div>
             </div>
-        </div>
         <!-- Q5-2の回答はここに書いてね -->
 
         <!--
@@ -92,12 +89,11 @@
         ・justify-content
         -->
         <!-- Q5-2の回答はここに書いてね -->
-        <div class="contents__vertical__flex mb20">
-            <p class="contents__vertical__flex__text">flex</p>
-        </div>
+            <div class="contents__vertical__flex mb20">
+                <p class="contents__vertical__flex__text">flex</p>
+            </div>
         <!-- Q5-2の回答はここに書いてね -->
-
-        <div class="q5__box--2">
+            <div class="q5__box--2">
             <!--
             中央寄せする要素のサイズが固定のとき
 
@@ -106,9 +102,9 @@
             ・margin
             -->
             <!-- Q5-2の回答はここに書いてね -->
-           <div class="contents__position__box">
-                <p class="contents__position__box__inner is-stable">position固定</p>
-            </div>
+                <div class="contents__position__box">
+                    <p class="contents__position__box__inner is-stable">position固定</p>
+                </div>
             <!-- Q5-2の回答はここに書いてね -->
 
             <!--
@@ -119,13 +115,12 @@
             ・transform
             -->
             <!-- Q5-2の回答はここに書いてね -->
-            <div class="contents__position__box">
-                <p class="contents__position__box__inner is-flexible">position可変</p>
-            </div>
+                <div class="contents__position__box">
+                    <p class="contents__position__box__inner is-flexible">position可変</p>
+                </div>
             <!-- Q5-2の回答はここに書いてね -->
+            </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>

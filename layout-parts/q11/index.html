@@ -12,20 +12,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <div class="wrapper">
-    <h1 class="title">基本レイアウト・パーツ</h1>
-
-    <div class="box">
-      <h2 class="headline">
-        <p class="headline__txt">Q11. アニメーション</p>
-      </h2>
+    <div class="wrapper">
+        <h1 class="title">基本レイアウト・パーツ</h1>
+        <div class="box">
+            <h2 class="headline">
+                <p class="headline__txt">Q11. アニメーション</p>
+            </h2>
         <!--
         アニメーションはユーザーにとってわかりやすいサイトを作るためによく使われるのでこの問題で覚えましょう。
         アニメーションの書き方はtransitionとanimationの2つがあるので、どちらのパターンでも対応できるようになりましょう。
         2つのアニメーションの違いとしては、transitionは書き方は簡単だが細かいアニメーションに向いていない、animationは記述は難しいが複雑なアニメーションを書くことができる、といった感じです。
         -->
-      <p class="title--sub">ー transition ー</p>
+            <p class="title--sub">ー transition ー</p>
         <!--
         画像をホバーしたとき、要素のサイズやポジションを変えて、その際transitionでアニメーションをかけてください。
         実装の順序として、まずはアニメーション無しでホバーしたときの変化を実装して、それができたあとにアニメーションの記述を追加すると良いかと思います。
@@ -41,16 +39,15 @@
         ・:hover
         -->
         <!-- 回答はここに書いてね -->
-      <main>
-        <div class="contents__top">
-          <img class="contents__top__img" src="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/img/q11/thumb.jpg">
-          <div class="contents__top__text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-  <!-- 回答はここに書いてね -->
-
-        <p class="title--sub mt10">ー animation ー</p>
+            <div>
+                <div class="contents__top">
+                    <img class="contents__top__img" src="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/img/q11/thumb.jpg">
+                    <div class="contents__top__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+        <!-- 回答はここに書いてね -->
+                <p class="title--sub mt10">ー animation ー</p>
         <!--
         今回はホバーとは関係なく常に動いているアニメーションです。よくローディングで使われるアイコンをCSSだけで実装します。
         まずは上部分だけが水色の円をつくってみてください。その後、アニメーションを使って円の角度を変更する処理を書きます。
@@ -61,11 +58,10 @@
         ・transform
         -->
         <!-- 回答はここに書いてね -->
-        <div class="contents__bottom"></div>
+                <div class="contents__bottom"></div>
         <!-- 回答はここに書いてね -->
-      </main>
+            </div>
+        </div>
     </div>
-  </div>
-
 </body>
 </html>

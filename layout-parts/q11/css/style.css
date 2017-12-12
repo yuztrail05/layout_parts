@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents__top{
+.contents__top {
     overflow: hidden;
     position: relative;
     width: 500px;
     margin: 0 auto;
 }
+
 .contents__top__img { 
-	  transition: 0.5s; 
+	transition: 0.5s; 
 }
+
 .contents__top__text {
     position: absolute;
     bottom: -100%;
@@ -33,7 +35,7 @@
 }
 
 .contents__top:hover .contents__top__text { 
-	  bottom: 0; 
+	bottom: 0; 
 }
 
 .contents__bottom {
@@ -54,6 +56,4 @@
       transform: rotate(360deg);
     }
 }
-
-
 /* 回答はここに書いてね */
