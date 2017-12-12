@@ -38,7 +38,7 @@
     line-height: 25px;
 }
 
-.form__input__left__radio div label input:checked + .form__input__left__radio__text:after {
+.form__input__left__radio .sub__form input:checked + .form__input__left__radio__text:after {
     position: absolute;
     top: 50%;
     left: 4px;
@@ -50,16 +50,16 @@
     content: '';
 }
 
-.form__input__left__radio div label input {
+.form__input__left__radio .sub__form  input {
     display: none;
 }
 
-.form__input__left__radio div label span {
+.form__input__left__radio .sub__form span {
     position: relative;
     padding: 3px 3px 3px 20px;
 }
 
-.form__input__left__radio div label span:before {
+.form__input__left__radio .sub__form span:before {
     position: absolute;
     top: 50%;
     left: 0;
