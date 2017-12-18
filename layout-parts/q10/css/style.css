@@ -1,9 +1,9 @@
-.form__input__left li {
+.form__input__left__list {
     text-align: right;
     margin-top: 20px;
 }
 
-.form__input__left li:first-child {
+.form__input__left__list:first-child {
     margin-top: 0;
 }
 
@@ -24,7 +24,7 @@
     color: red;
 }
 
-.form__input__left__child {
+.form__input__left__list__form {
     padding: 5px;
     border-radius: 3px;
     background-color: #FFF;
@@ -38,7 +38,7 @@
     line-height: 25px;
 }
 
-.form__input__left__radio .sub__form input:checked + .form__input__left__radio__text:after {
+.form__input__left__radio__button:checked + .form__input__left__radio__text:after {
     position: absolute;
     top: 50%;
     left: 4px;
@@ -50,16 +50,16 @@
     content: '';
 }
 
-.form__input__left__radio .sub__form  input {
+.form__input__left__radio__button {
     display: none;
 }
 
-.form__input__left__radio .sub__form span {
+.form__input__left__radio__text {
     position: relative;
     padding: 3px 3px 3px 20px;
 }
 
-.form__input__left__radio .sub__form span:before {
+.form__input__left__radio__text:before {
     position: absolute;
     top: 50%;
     left: 0;

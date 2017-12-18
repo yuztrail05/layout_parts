@@ -11,35 +11,44 @@
     box-sizing: border-box;
 }
 
-.main__bar li {
+.main__bar__flexible {
     padding: 20px 0;
     display: table-cell;
 }
 
-.main__bar__kotei-a {
+.main__bar__inflexible-small {
+    padding: 20px 0;
+    display: table-cell;
     width: 100px;
+}
+
+.main__bar__inflexible-large {
+    padding: 20px 0;
+    display: table-cell;
+    width: 500px;
+}
+
+.main__bar__pink {
     background-color: #fdc8b8;
 }
 
-.main__bar__kahen-a {
+.main__bar__purple {
     background-color: #e0abd9; 
 }
 
-.main__bar__kotei-b {
-    width: 100px;
+.main__bar__blue {
     background-color: #b6d8ed;
 }
 
-.main__bar__kahen-b {
+.main__bar__yellow {
     background-color: #e5d32e;
 }
 
-.main__bar__kahen-c {
+.main__bar__light-yellow {
     background-color: #e4e67c;
 }
 
-.main__bar__kotei-c {
-    width: 500px;
+.main__bar__green {
     background-color: #8fdcad;
 }
 /* 回答はここに書いてね */

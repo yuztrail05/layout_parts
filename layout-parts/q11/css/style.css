@@ -12,7 +12,7 @@
 	transition: 0.5s; 
 }
 
-.contents__top__text {
+.contents__top__gradation {
     position: absolute;
     bottom: -100%;
     width: 100%;
@@ -25,7 +25,7 @@
 	transform: scale(1.5); 
 }
 
-.contents__top__text p {
+.contents__top__gradation__text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -34,7 +34,7 @@
     word-break: break-all;
 }
 
-.contents__top:hover .contents__top__text { 
+.contents__top:hover .contents__top__gradation { 
 	bottom: 0; 
 }
 

@@ -7,27 +7,28 @@
     width: 100%;
 }
 
-.contents__head .contents__child td {
+.contents__head .contents__line__cell {
     background-color: #2244aa;
     color: #fff;
+    font-size: 18px;
 }
 
-.contents__child td {
+.contents__line__cell {
     font-size: 16px;
     padding: 10px;
     line-height: 22px;
     border: 1px solid #dedede;
 }
 
-.contents__child {
+.contents__line {
     text-align: center;
 }
 
-.contents__child:nth-child(even) {
+.contents__line:nth-child(even) {
     background-color: #ecf1f2;
 }
 
-.contents__child th {
+.contents__line__cell-side {
     background-color: #2244aa;
     border: 1px solid #dedede;
     color: #fff;
@@ -36,7 +37,7 @@
     padding: 10px 0;
 }
 
-.contents__body .contents__child:last-child {
+.contents__body .contents__line:last-child {
     border-bottom: 2px dashed #000;
 }
 /* 回答はここに書いてね */
